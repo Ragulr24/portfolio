@@ -1,12 +1,13 @@
 
 import './App.css';
+import Header from './components/Header';
+import Content from './components/Content';
 
 function App() {
   return (
     <div className="App">
- <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-    </h1>
+    <Header/>
+    <Content/>
     </div>
   );
 }
