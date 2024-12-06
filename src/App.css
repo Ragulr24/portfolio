@@ -6,8 +6,12 @@ nav ul li{
   @apply px-2;
 }
 
-.bg-color{
+.bg-header{
   background: #474f4b;
+}
+
+.bg-content{
+  background:#5d7563;
 }
 
 .mob-nav{

@@ -5,6 +5,10 @@ module.exports = {
   ],  
   theme: {
     extend: {},
+    fontFamily:{
+      'content-font' : 'Sriracha',
+      'header-font' : 'Anton'
+    }
   },
   plugins: [],
 }

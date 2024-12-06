@@ -3,9 +3,9 @@ import { IoMenu } from "react-icons/io5";
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="flex justify-between px-2 py-3 bg-color">
-      <a href="#" className="font-bold text-lime-400">
-        Ragul R
+    <div className="flex justify-between px-2 py-3 bg-header">
+      <a href="#" className="font-bold font-header-font text-lime-400">
+        R A G U L . R
       </a>
       <nav className="hidden md:block">
         <ul className="flex text-white">
