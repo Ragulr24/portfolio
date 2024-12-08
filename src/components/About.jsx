@@ -1,7 +1,7 @@
 import Aboutimg from "../assets/about.png";
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-header font-about-font">
+    <div className="flex flex-col md:flex-row bg-header font-about-font" id="about">
       <div className="md:w-1/2">
         <img src={Aboutimg} alt="about img" />
       </div>
