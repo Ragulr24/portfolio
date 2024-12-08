@@ -32,7 +32,7 @@ const Project = () => {
           <div className="relative">
             <img className="h-[200px] w-[500px]" src={junior} />
             <div className="project-desc">
-            <p className="text-center py-1 text-black font-bold">Junior Developer in FR8</p>
+            <p className="text-center md:py-2 text-black font-bold">Junior Developer in FR8 [May 2022 - Oct 2022]</p>
               <ul>
                 <li className="list-disc pl-2">
                 Acquired in-depth knowledge of web architecture.
@@ -42,7 +42,7 @@ const Project = () => {
                 </li>
               </ul>
               
-               <p className="py-2">
+               <p className="md:py-6">
                 <b>TechStack used: </b>React.js, JavaScript (ES6+), HTML, CSS, RESTful APIs,Version Control.
                 </p> 
              
@@ -51,7 +51,7 @@ const Project = () => {
           <div className="relative">
             <img className="h-[200px] w-[500px]" src={senior} />
             <div className="project-desc ">
-              <p className="text-center py-1 text-black font-bold">Senior Developer in FR8</p>
+              <p className="text-center md:py-2 text-black font-bold">Senior Developer in FR8 [Oct 2022 - Oct 2023]</p>
               <ul>
                 <li className="list-disc pl-2">
                 Developed dynamic, user-centric web applications.
@@ -60,8 +60,7 @@ const Project = () => {
                 Collaborated with cross-functional teams in Agile environments.
                 </li>
               </ul>
-              <br/>
-               <p>
+               <p className="md:py-6">
                 <b>TechStack used: </b>React.js, JavaScript (ES6+), Redux, HTML, CSS, RESTful APIs,Version Control.
                 </p> 
              
