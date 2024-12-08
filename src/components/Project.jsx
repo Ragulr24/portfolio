@@ -2,7 +2,6 @@ import ecommerce from "../assets/ecommerce-websites.jpg";
 import junior from "../assets/junior.jpeg";
 import senior from "../assets/senior-developer.png";
 const Project = () => {
-  // const ecommerceLink = '';
   return (
     <div
       className="flex flex-col justify-center bg-content text-white"
