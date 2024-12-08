@@ -6,8 +6,12 @@ nav ul li{
   @apply px-2;
 }
 
-.bg-color{
+.bg-header{
   background: #474f4b;
+}
+
+.bg-content{
+  background:#5d7563;
 }
 
 .mob-nav{
@@ -16,4 +20,8 @@ nav ul li{
 
 .mob-nav li{
   @apply w-full h-full text-center border-b-0
+}
+
+.project-desc {
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-content opacity-0 duration-500 hover:opacity-100
 }
