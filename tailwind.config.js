@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     fontFamily:{
       'content-font' : 'Sriracha',
-      'header-font' : 'Anton'
+      'header-font' : 'Anton',
+      'about-font' : 'Parkinsans'
     }
   },
   plugins: [],
