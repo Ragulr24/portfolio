@@ -32,7 +32,7 @@ const Project = () => {
           <div className="relative">
             <img className="h-[200px] w-[500px]" src={junior} />
             <div className="project-desc">
-              <p className="text-center py-3">Worked as Junior Developer in New Olog Logistics Pvt Ltd. [May 2022 - October 2022]  </p>
+            <p className="text-center py-1 text-black font-bold">Junior Developer in FR8</p>
               <ul>
                 <li className="list-disc pl-2">
                 Acquired in-depth knowledge of web architecture.
@@ -40,21 +40,18 @@ const Project = () => {
                 <li className="list-disc pl-2">
                 Designed and implemented reusable React UI components.
                 </li>
-                <li className="list-disc pl-2">
-                Modernized legacy codebases.
-                </li>
               </ul>
-             
-               <p>
-                <b>TechStack used: </b>React.js, JavaScript (ES6+), Redux, HTML, CSS, RESTful APIs,Version Control.
+              
+               <p className="py-2">
+                <b>TechStack used: </b>React.js, JavaScript (ES6+), HTML, CSS, RESTful APIs,Version Control.
                 </p> 
              
             </div>
           </div>
           <div className="relative">
             <img className="h-[200px] w-[500px]" src={senior} />
-            <div className="project-desc">
-              <p className="text-center py-3">Worked as Senior Developer in New Olog Logistics Pvt Ltd. [October 2022 - October 2023]  </p>
+            <div className="project-desc ">
+              <p className="text-center py-1 text-black font-bold">Senior Developer in FR8</p>
               <ul>
                 <li className="list-disc pl-2">
                 Developed dynamic, user-centric web applications.
@@ -62,11 +59,8 @@ const Project = () => {
                 <li className="list-disc pl-2">
                 Collaborated with cross-functional teams in Agile environments.
                 </li>
-                <li className="list-disc pl-2">
-                Transformed wireframes into interactive web-interfaces.
-                </li>
               </ul>
-             
+              <br/>
                <p>
                 <b>TechStack used: </b>React.js, JavaScript (ES6+), Redux, HTML, CSS, RESTful APIs,Version Control.
                 </p> 
